@@ -4,9 +4,9 @@
 目前只完成了一些功能----登录注册,上传图片,图片管理.
 效果图：
 [![yLT9Rf.md.png](https://s3.ax1x.com/2021/02/24/yLT9Rf.md.png)](https://imgtu.com/i/yLT9Rf)
+[![yLTiQS.md.png](https://s3.ax1x.com/2021/02/24/yLTiQS.md.png)](https://imgtu.com/i/yLTiQS)
 [![yLTpJP.md.png](https://s3.ax1x.com/2021/02/24/yLTpJP.md.png)](https://imgtu.com/i/yLTpJP)
 [![yLTSit.md.png](https://s3.ax1x.com/2021/02/24/yLTSit.md.png)](https://imgtu.com/i/yLTSit)
-[![yLTiQS.md.png](https://s3.ax1x.com/2021/02/24/yLTiQS.md.png)](https://imgtu.com/i/yLTiQS)
 [![yLTCz8.md.png](https://s3.ax1x.com/2021/02/24/yLTCz8.md.png)](https://imgtu.com/i/yLTCz8)
 
 部署使用说明
