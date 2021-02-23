@@ -3,11 +3,11 @@
 该图床网站只开发了一点，千万别搭建到线上。
 目前只完成了一些功能----登录注册,上传图片,图片管理.
 效果图：
-[![yLTCz8.md.png](https://s3.ax1x.com/2021/02/24/yLTCz8.md.png)](https://imgtu.com/i/yLTCz8)
+[![yLT9Rf.md.png](https://s3.ax1x.com/2021/02/24/yLT9Rf.md.png)](https://imgtu.com/i/yLT9Rf)
 [![yLTpJP.md.png](https://s3.ax1x.com/2021/02/24/yLTpJP.md.png)](https://imgtu.com/i/yLTpJP)
 [![yLTSit.md.png](https://s3.ax1x.com/2021/02/24/yLTSit.md.png)](https://imgtu.com/i/yLTSit)
 [![yLTiQS.md.png](https://s3.ax1x.com/2021/02/24/yLTiQS.md.png)](https://imgtu.com/i/yLTiQS)
-[![yLT9Rf.md.png](https://s3.ax1x.com/2021/02/24/yLT9Rf.md.png)](https://imgtu.com/i/yLT9Rf)
+[![yLTCz8.md.png](https://s3.ax1x.com/2021/02/24/yLTCz8.md.png)](https://imgtu.com/i/yLTCz8)
 
 部署使用说明
 需要软件： (1)Oracle JDK版本1.8.0_271  (2) MySQL Server 8.0.22
