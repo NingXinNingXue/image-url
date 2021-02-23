@@ -1,8 +1,8 @@
-这是学了一点springboot搞出来的一个图床网站（未完成），图片的存储位置目前只能是本机目录。
-注意！注意！注意！
-该图床网站只开发了一些，还不完善，千万别搭建到线上。
-目前只完成了一些功能----登录注册，上传图片，图片管理。
-效果图（如果图片觉得模糊，可以点击图片查看大图）：
+这是学了一点springboot搞出来的一个图床网站（未完成），图片的存储位置目前只能是本机目录。  <br>
+注意！注意！注意！  <br>
+该图床网站只开发了一些，还不完善，千万别搭建到线上。  <br>
+目前只完成了一些功能----登录注册，上传图片，图片管理。  <br>
+效果图（如果图片觉得模糊，可以点击图片查看大图）：  <br>
 [![yLT9Rf.md.png](https://s3.ax1x.com/2021/02/24/yLT9Rf.md.png)](https://imgtu.com/i/yLT9Rf)
 [![yLTiQS.md.png](https://s3.ax1x.com/2021/02/24/yLTiQS.md.png)](https://imgtu.com/i/yLTiQS)
 [![yLTpJP.md.png](https://s3.ax1x.com/2021/02/24/yLTpJP.md.png)](https://imgtu.com/i/yLTpJP)
