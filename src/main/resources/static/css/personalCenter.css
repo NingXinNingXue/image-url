@@ -1,0 +1,86 @@
+#image-manage-div {
+    display: none;
+}
+
+#statistics-div {
+    display: none;
+}
+
+.image-preview {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.image-url-div {
+    text-align: center;
+    padding: 5px 0;
+    /*display: none;*/
+}
+
+.image-url-div p {
+    display: inline;
+}
+
+.hint-link {
+    font-weight: bold;
+}
+
+.link {
+    font-weight: bold;
+    width: 250px;
+}
+
+.copy-link {
+    background-color: transparent;
+    /*color: #01AAED;*/
+    box-shadow: none;
+    border: 0px solid #000000;
+    font-size: 12px;
+}
+
+.copy-link:hover {
+    color: #01AAED;
+    font-size: 12px;
+}
+
+.delete {
+    background-color: transparent;;
+    /*color: #01AAED;*/
+    box-shadow: none;
+    border: 0px solid #000000;
+    font-size: 12px;
+    margin: 0 5px 3px 0;
+}
+
+.delete:hover {
+    color: red;
+    font-size: 12px;
+}
+
+.image-name-div {
+    padding: 5px 0;
+}
+
+.image-name-div p {
+    font-size: 18px;
+}
+
+.image-div {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    border: #c4c4c4 5px solid;
+    margin: 30px;
+    position: relative;
+}
+
+.information {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    bottom: 0px;
+}

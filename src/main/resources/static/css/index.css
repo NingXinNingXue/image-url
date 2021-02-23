@@ -1,0 +1,65 @@
+#outermost-div {
+    font-size: 14px;
+}
+
+#test-image-preview {
+    width: 500px;
+    height: 500px;
+    border: 3px solid #005500;
+}
+
+#image-preview {
+    width: auto;
+    height: auto;
+    max-width: 1200px;
+    max-height: 400px;
+    align: center;
+}
+
+#outermost-div {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+#image-preview-div {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+#select-image-div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#link-div {
+    text-align: center;
+    padding: 20px 0;
+    /*display: none;*/
+}
+
+#link-div p {
+    display: inline;
+}
+
+#hint-link {
+    font-weight: bold;
+}
+
+#link {
+    font-weight: bold;
+    width: 460px;
+}
+
+#copy-link {
+    background-color: transparent;
+    /*color: #01AAED;*/
+    box-shadow: none;
+    border: 0px solid #000000;
+    font-size: 12px;
+}
+
+#copy-link:hover {
+    color: #01AAED;
+    font-size: 12px;
+}

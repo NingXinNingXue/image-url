@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<link href="/layui/css/layui.css" rel="stylesheet" type="text/css"/>
+<link href="/css/register.css" rel="stylesheet" type="text/css"/>
+<body>
+<div id="outermost-div">
+    <div align="right">
+        <ul class="layui-nav">
+            <li class="layui-nav-item">
+                <a href="/index.html">首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/personalCenter.html">个人中心</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="">用户</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="/login.html">登录</a></dd>
+                    <dd><a href="/register.html">注册</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div id="input-div">
+        <p id="hint">注册</p>
+        <div class="layui-form-item">
+            <label class="layui-form-label">用户名</label>
+            <div class="layui-input-inline">
+                <input autocomplete="off" class="layui-input" id="username" lay-verify="pass" name="username"
+                       placeholder="请输入用户名" type="text">
+            </div>
+            <div class="layui-form-mid layui-word-aux">3~12，可用汉字、字母、数字</div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">密码</label>
+            <div class="layui-input-inline">
+                <input autocomplete="off" class="layui-input" id="password" lay-verify="pass" name="password"
+                       placeholder="请输入密码" type="password">
+            </div>
+            <div class="layui-form-mid layui-word-aux">11位~32位，包含大小写字母、数字、特殊符号</div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">确认密码</label>
+            <div class="layui-input-inline">
+                <input autocomplete="off" class="layui-input" id="confirm-password" lay-verify="pass"
+                       name="confirm-password" placeholder="请再次输入密码" type="password">
+            </div>
+        </div>
+        <button class="layui-btn layui-btn-lg layui-btn-normal" onclick="upRegisterInfo()"
+                style="width: 95px;display:block;margin:0 auto">注册
+        </button>
+    </div>
+</div>
+<script src="/layui/layui.js"></script>
+<script src="/js/register.js"></script>
+<script src="/js/jquery-3.5.1.js"></script>
+<script>
+    //layui调用的模块
+    layui.use(['layer', 'form', 'element'], function () {
+        let layer = layui.layer,
+            form = layui.form,
+            element = layui.element;
+        ;
+    });
+</script>
+</body>
+</html>

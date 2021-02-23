@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IMG URL</title>
+</head>
+<link href="/layui/css/layui.css" rel="stylesheet" type="text/css"/>
+<link href="/css/index.css" rel="stylesheet" type="text/css"/>
+
+
+<body>
+<div id="outermost-div">
+    <div align="right">
+        <ul class="layui-nav">
+            <li class="layui-nav-item">
+                <a href="/index.html">首页</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="/personalCenter.html">个人中心</a>
+            </li>
+            <li class="layui-nav-item">
+                <a href="">用户</a>
+                <dl class="layui-nav-child">
+                    <dd><a href="/login.html">登录</a></dd>
+                    <dd><a href="/register.html">注册</a></dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div id="image-preview-div">
+        <img id="image-preview">
+    </div>
+    <div id="select-image-div">
+        <input accept="image/jpg,image/jpeg,image/png,image/gif,image/svg,image/svg+xml,application/x-bmp,image/x-icon,application/x-ico,image/tiff" id="image-file" name="pic" onclick="imagePreview()"
+               type="file">
+        <br><br>
+        <button class="layui-btn layui-btn-normal" id="btn" onclick="upload()">提交</button>
+    </div>
+    <div id="link-div">
+        <p id="hint-link">链接是:<input id="link"></input></p>
+        <button id="copy-link" onclick="copyLink();">点击复制</button>
+    </div>
+    <img id="textTest">
+</div>
+<script src="/layui/layui.js"></script>
+<script src="/js/index.js"></script>
+<script src="/js/jquery-3.5.1.js"></script>
+<script>
+    //一般直接写在一个js文件中
+    layui.use(['layer', 'form'], function () {
+        let layer = layui.layer
+            , form = layui.form;
+        // layer.msg('Hello World');
+    });
+    //注意：导航 依赖 element 模块，否则无法进行功能性操作
+    layui.use('element', function () {
+        let element = layui.element;
+    });
+</script>
+</body>
+</html>
